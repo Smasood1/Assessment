@@ -38,4 +38,9 @@ public class CrewMember extends Person implements IServAble, iPayable{
     public String serve(Person person1) {
        return job + " Now serving " + person1.getName();
     }
+
+    @Override
+    public void printPaymentAmount() {
+
+    }
 }
